@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+    <meta http-equiv="X-UA-Compatible" content="lewedge">
+    <title>Portifólio do Desenvolvedor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4503ca3d61.js" crossorigin="anonymous"></script>
+    <style>
+        .foto-perfil {
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        
+        .corPrimaria {
+            background-image: linear-gradient(rgb(70, 68, 68), rgb(5, 100, 109));
+        }
+        
+        .corSecundaria {
+            background-image: linear-gradient(rgb(5, 100, 109), rgb(70, 68, 68));
+        }
+        
+        p {
+            font-family: cursive;
+            color: black !important;
+        }
+        
+        .icones {
+            padding-left: 5px;
+        }
+        
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: rgb(255, 255, 255)
+        }
+        
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: rgb(5, 100, 109);
+        }
+        
+        .textoBrancos {
+            color: white !important;
+        }
+        
+        .jombotrom {
+            margin-bottom: 0px;
+        }
+        
+        .textoFooter {
+            margin: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class=" corSecundaria navbar-expand-lg navbar-light "><a class="navbar-brand textoBrancos" href="#">Samuel silva </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class=" nav-link textoBrancos" href="#projetos">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link textoBrancos" href="#sobre-mim">Sobre mim</a></li>
+                <li class="nav-item"><a class="nav-link textoBrancos" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">'
+            <img class="foto-perfil" src=" imagens/minha foto.png " alt=" ">
+            <h1 class="jumbotron-heading  textoBrancos">Samuel Silva</h1>
+            <p class="textoBrancos ">Software Developer - Criador de Conteúdo - Empreendedor</p>
+            <p><a href="#contato " class="btn btn-dark my-2 ">Contato</a></p>
+            <a href="https://github.com/sanss021"><i class="fa fa-github textoBrancos"></i></a>
+            <a href="https://www.linkedin.com/in/samuel-silva-833322153/"><i class=" fa fa-linkedin icones textoBrancos"></i></a>
+            <a href=""><i class="fa fa-instagram icones textoBrancos"></i></a>
+        </div>
+    </section>
+    <div class="album py-5 bg-light" id="projetos">
+        <div class="container">
+            <h3 class="jombotron-heading text-center titulosVerdes">Projetos</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="imagens/Captura de tela_2020-09-02_19-11-40.png" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Esse é um projeto de um App Web que funciona organizando agendamentos de acordo com a data e horário.</p>
+                            <ul>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>SQLite</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/sanss021/agenda"><button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href="https://github.com/sanss021/agenda"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Sobre Mim-->
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h3 class="jumbotron-heading titulosBrancos">Sobre Mim</h3>
+            <p class="lead textoBrancos">Olá, me chamo Samuel. Sou Desenvolvedor de aplicações Web tenho conhecimentos em front-end com JavaScript/HTML/CSS e back-end com Python e Django</p>
+        </div>
+    </section>
+    <!--Contato-->
+    <section class="corPrimaria" id="contato">
+        <div>
+            <div class="container-fluid">
+                <h5 style="padding-top: 60px" class="text-center titulosBrancos">Disponível para oportunidades</h5>
+                <a href="mailto:smlmonteiroum@gmail.com">
+                    <h4 style="padding-bottom: 60px; margin-bottom: 0px;" class="text-center">smlmonteiroum@gmail.com</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="text-center corSecundaria textoFooter">
+        <p class="textoBrancos">Desenvolvido por Samuel Silva </p>
+    </footer>
+</body>
+
+</html>
