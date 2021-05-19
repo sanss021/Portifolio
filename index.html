@@ -2,197 +2,477 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
-    <meta http-equiv="X-UA-Compatible" content="lewedge">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+
     <title>Portifólio do Desenvolvedor</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/4503ca3d61.js" crossorigin="anonymous"></script>
-    <style>
-        .foto-perfil {
-            border-radius: 100px;
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-            filter: rgb(0, 0, 0);
-            /* IE */
-        }
-        
-        .corPrimaria {
-            background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
-        }
-        
-        .corSecundaria {
-            background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
-        }
-        
-        .corTerciaria {
-            background-image: linear-gradient(rgb(250, 221, 4), rgb(250, 221, 4));
-        }
-        
-        p {
-            font-family: cursive;
-            color: black !important;
-        }
-        
-        .icones {
-            padding-left: 5px;
-        }
-        
-        .titulosBrancos {
-            text-decoration: underline;
-            text-underline-position: below;
-            padding-bottom: 20px;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: rgb(255, 255, 255)
-        }
-        
-        .titulosVerdes {
-            text-decoration: underline;
-            text-underline-position: below;
-            padding-bottom: 20px;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: rgb(240, 212, 1);
-        }
-        
-        .textoBrancos {
-            color: yellow !important;
-        }
-        
-        .textoPretos {
-            color: rgb(0, 0, 0) !important;
-        }
-        
-        .jombotrom {
-            margin-bottom: 0px;
-        }
-        
-        .textoFooter {
-            margin: 0px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-        }
-        
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
+    <!--
+Elegance Template
+https://templatemo.com/tm-528-elegance
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 
-<body class="corPrimaria">
-    <nav class=" corTerciaria navbar-expand-lg navbar-light ">
-        <a class="navbar-brand textoBrancos" href="#">
-        </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto"></ul>
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link textoPretos" href="#projetos">Projetos</a></li>
-                <li class="nav-item"><a class="nav-link textoPretos" href="#sobre-mim">Sobre mim</a></li>
-                <li class="nav-item"><a class="nav-link textoPretos" href="#contato">Contato</a></li>
-            </ul>
+<body>
+
+    <div id="video">
+        <div class="preloader">
+            <div class="preloader-bounce">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-    </nav>
-    <section class="jumbotron text-center corPrimaria">
-        <div class="container">'
-            <img class="foto-perfil" src=" imagens/sanss.jpg " alt="Norway" style="width:15%">
-            <h1 class="jumbotron-heading textoBrancos ">Samuel Silva</h1>
-            <p class="textoBrancos ">Desenvolvimento Web - Desenvolvimento Mobile - Empreendedor</p>
-            <p><a href="#contato " class="btn btn-dark my-2 ">Contato</a></p>
-            <a href="https://github.com/sanss021 "><i class="fa fa-github textoBrancos "></i></a>
-            <a href="https://www.linkedin.com/in/samuel-silva-833322153/ "><i
-                    class=" fa fa-linkedin icones textoBrancos "></i></a>
-            <a href=" "><i class="fa fa-instagram icones textoBrancos "></i></a>
-        </div>
-    </section>
-    <!-- Projects -->
-    <div class="album py-5 corSecundaria " id="projetos">
-        <div class="container ">
-            <h3 class="jombotron-heading text-center titulosVerdes ">Projetos</h3>
-            <div class="row ">
-                <div class="col-md-6 ">
-                    <div class="card mb-4 box-shadow ">
-                        <img class="card-img-top " data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail " alt="Thumbnail [100%x225] " style="height: 225px; width: 100%; display: block; " src="imagens/induna-print.png
-                " data-holder-rendered="true ">
-                        <div class="card-body ">
-                            <p class="card-text ">Induna é uma plataforma onde você pode informar e ser informado sobre situações de interesse público que acontecem na sua região.</p>
-                            <ul>
-                                <li>Python</li>
-                                <li>Django</li>
-                                <li>MySQL</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center ">
-                                <div class="btn-group ">
-                                    <a href="https://induna.herokuapp.com/ "><button type="button "
-                                            class="btn btn-sm btn-outline-success ">Ver Projeto</button></a>
-                                    <a href="https://github.com/sanss021/ "><button type="button "
-                                            class="btn btn-sm btn-outline-primary ">Código</button></a>
+
+        <header id="header">
+            <div class="container-fluid">
+                <div class="navbar">
+                    <a href="#" id="logo" title="Elegance by TemplateMo"></a>
+                    <div class="navigation-row">
+                        <nav id="navigation">
+                            <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
+                            <div class="nav-box navbar-collapse">
+                                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
+                                    <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
+                                    <li data-menuanchor="slide02"><a href="#slide02">Sobre Mim</a></li>
+                                    <li data-menuanchor="slide03"><a href="#slide03">Serviços</a></li>
+                                    <li data-menuanchor="slide04"><a href="#slide04">ferramentas</a></li>
+                                    <li data-menuanchor="slide05"><a href="#slide05">Projetos</a></li>
+                                    <!--<li data-menuanchor="slide06"><a href="#slide06">Testimonials</a></li>-->
+                                    <li data-menuanchor="slide07"><a href="#slide06">Contato</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <video autoplay muted loop id="myVideo">
+            <source src="images/video.mp4" type="video/mp4">
+        </video>
+
+        <div id="fullpage" class="fullpage-default">
+
+            <div class="section animated-row" data-section="slide01">
+                <div class="section-inner">
+                    <div class="welcome-box">
+                        <span class="welcome-first animate" data-animate="fadeInUp">Olá, me chamo</span>
+                        <h1 class="welcome-title animate" data-animate="fadeInUp">Samuel silva</h1>
+                        <p class="animate" data-animate="fadeInUp">Sou Desenvolvedor de aplicações Web e Mobile tenho conhecimentos em front-end com HTML/CSS/JavaScript e back-end com Python e Django.</p>
+                        <div class="scroll-down next-section animate data-animate=" fadeInUp ""><img src="images/mouse-scroll.png" alt=""><span>Scroll Down</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section animated-row" data-section="slide02">
+                <div class="section-inner">
+                    <div class="about-section">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 wide-col-laptop">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="about-contentbox">
+                                            <div class="animate" data-animate="fadeInUp">
+                                                <span>Sobre mim</span>
+                                                <h2>Quem sou eu?</h2>
+                                                <p>Crio aplicações usando a linguagem <strong>Python</strong> e o framework <strong>Django</strong> sou apaixonado por tecnologia, busco sempre inovar em meus projetos, e estar super antenado com as melhores
+                                                    práticas.
+                                                </p>
+                                            </div>
+                                            <div class="facts-list owl-carousel">
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="counter-box">
+                                                        <i class="fa fa-graduation-cap counter-icon" aria-hidden="true"></i><span class="count-number">1</span> Graduação
+
+                                                    </div>
+                                                </div>
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="counter-box">
+                                                        <i class="fa fa-trophy counter-icon" aria-hidden="true"></i><span class="count-number">15</span> Certificados
+                                                    </div>
+                                                </div>
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="counter-box">
+                                                        <i class="fa fa-desktop counter-icon" aria-hidden="true"></i><span class="count-number">2</span> Anos de experiência
+                                                    </div>
+                                                </div>
+                                                <!--
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="counter-box">
+                                                        <i class="fa fa-support counter-icon" aria-hidden="true"></i><span class="count-number">6</span> Team Members
+                                                    </div>
+                                                </div>
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="counter-box">
+                                                        <i class="fa fa-certificate counter-icon" aria-hidden="true"></i><span class="count-number">10</span> Certificates
+                                                    </div>
+                                                </div>
+                                                -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="imagens/sans.jpg" class="rounded" alt=""></figure>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 ">
-                    <div class="card mb-4 box-shadow ">
-                        <img class="card-img-top " data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail " alt="Thumbnail [100%x225] " style="height: 225px; width: 100%; display: block; " src="imagens/kilombuhitech1.png
-                " data-holder-rendered="true ">
-                        <div class="card-body ">
-                            <p class="card-text ">Site de Notícias Afro sobre Ciência, Tecnologia, Negócios e Educação.
-                            </p>
-                            <ul>
-                                <li>Wordpress</li>
-                                <li>Elementor</li>
-                                <li>Cpainel</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center ">
-                                <div class="btn-group ">
-                                    <a href="# "><button type="button " class="btn btn-sm btn-outline-success ">Ver
-                                            Projeto</button></a>
-                                    <a href="https://github.com/sanss021/ "><button type="button "
-                                            class="btn btn-sm btn-outline-primary ">Código</button></a>
+            </div>
+
+            <div class="section animated-row" data-section="slide03">
+                <div class="section-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 wide-col-laptop">
+                            <div class="title-block animate" data-animate="fadeInUp">
+                                <span>Habilidades</span>
+                                <h2>O que eu faço?</h2>
+                            </div>
+                            <div class="services-section">
+                                <div class="services-list owl-carousel">
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon"><i class="fa fa-tasks"
+                                                    aria-hidden="true"></i></span>
+                                            <h3>Desenvolimento Python</h3>
+                                            <p>Python é uma linguagem de programação interpretada de alto nível para fins gerais. sua abordagem orientada a objetos , visam ajudar os programadores a escrever código claro e lógico para projetos de pequena
+                                                e grande escala.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon"><i class="fa fa-desktop"
+                                                    aria-hidden="true"></i></span>
+                                            <h3>Desenvolvimento Django</h3>
+                                            <p>Django é um dos frameworks web mais populares, o objetivo principal do Django é facilitar a criação de sites complexos e baseados em banco de dados.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon"><i class="fa fa-tablet"
+                                                    aria-hidden="true"></i></span>
+                                            <h3>Desenvolvimento Front-end</h3>
+                                            <p> Criação de interface gráfica , por meio do uso de HTML, CSS e JavaScript, para que os usuários possam visualizar e interagir com esses dados. </p>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon"><i class="fa fa-mobile"
+                                                    aria-hidden="true"></i></span>
+                                            <h3>Template Responsivo</h3>
+                                            <p>Adaptado automaticamente para ser exibido nos mais diversos tamanhos de tela, desde um pequeno smartphone até o monitor de um desktop. </p>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon"><i class="fa fa-database"
+                                                    aria-hidden="true"></i></span>
+                                            <h3>Banco de dados</h3>
+                                            <p>Conhecimentos em MySQL, PostgreSQL e MongoDB</p>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon"><i class="fa fa-cloud"
+                                                    aria-hidden="true"></i></span>
+                                            <h3>Serviços Cloud</h3>
+                                            <p>Conhecimentos em AWS e Heroku</p>
+                                        </div>
+                                    </div>
+                                    <!--
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon"><i class="fa fa-bell" aria-hidden="true"></i></span>
+                                            <h3>Instant Upgrades</h3>
+                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon"><i class="fa fa-camera" aria-hidden="true"></i></span>
+                                            <h3>Always Monitoring</h3>
+                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                        </div>
+                                    </div>
+                                    -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="section animated-row" data-section="slide04">
+                <div class="section-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-7 wide-col-laptop">
+                            <div class="title-block animate" data-animate="fadeInUp">
+                                <span>Minhas ferramentas</span>
+                                <h2>Em que eu sou bom?</h2>
+                            </div>
+                            <div class="skills-row animate" data-animate="fadeInDown">
+                                <div class="row">
+                                    <div class="col-md-8 offset-md-2">
+                                        <div class="skill-item">
+                                            <h6>Python</h6>
+                                            <div class="skill-bar">
+                                                <span>80%</span>
+                                                <div class="filled-bar"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h6>Django</h6>
+                                            <div class="skill-bar">
+                                                <span>78%</span>
+                                                <div class="filled-bar-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h6>HTML</h6>
+                                            <div class="skill-bar">
+                                                <span>75%</span>
+                                                <div class="filled-bar"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item last-skill">
+                                            <h6>Css</h6>
+                                            <div class="skill-bar">
+                                                <span>70%</span>
+                                                <div class="filled-bar-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item last-skill">
+                                            <h6>JavaScript</h6>
+                                            <div class="skill-bar">
+                                                <span>60%</span>
+                                                <div class="filled-bar-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section animated-row" data-section="slide06">
+                <div class="section-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 wide-col-laptop">
+                            <div class="title-block animate" data-animate="fadeInUp">
+                                <span>Meu Trbalho</span>
+                                <h2>o que eu já fiz?</h2>
+                            </div>
+                            <div class="gallery-section">
+                                <div class="gallery-list owl-carousel">
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <img src="images/Induna.png" alt="">
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Aplicação Web</h4>
+                                                <p>Induna é uma plataforma onde você pode informar e ser informado sobre situações de interesse público que acontecem na sua região.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <img src="images/portal.png" alt="">
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Portal de Notícias</h4>
+                                                <p>Site de Notícias Afro sobre Ciência, Tecnologia, Negócios e Educação.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <img src="images/constru.png" alt="">
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Novos projetos</h4>
+                                                <p>Estou desenvolvendo novas aplicações que em breve entrarão para esta linda familia.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <img src="images/constru.png" alt="">
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Novos projetos</h4>
+                                                <p>Estou desenvolvendo novas aplicações que em breve entrarão para esta linda familia.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--            
+            <div class="section animated-row" data-section="slide05">
+                <div class="section-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 wide-col-laptop">
+                            <div class="title-block animate" data-animate="fadeInUp">
+                                <span>TESTIMONIALS</span>
+                                <h2>what THEY SAY?</h2>
+                            </div>
+                            <div class="col-md-8 offset-md-2">
+                                <div class="testimonials-section">
+                                    <div class="testimonials-slider owl-carousel">
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="testimonial-item">
+                                                <div class="client-row">
+                                                    <img src="images/profile-01.jpg" class="rounded-circle" alt="profile 1">
+                                                </div>
+                                                <div class="testimonial-content">
+                                                    <h4>Sandar</h4>
+                                                    <p>"Ut varius leo eu mauris lacinia, eleifend posuere urna gravida. Aenean a mattis lacus."</p>
+                                                    <span>Managing Director</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="testimonial-item">
+                                                <div class="client-row">
+                                                    <img src="images/profile-01.jpg" class="rounded-circle" alt="profile 2">
+                                                </div>
+                                                <div class="testimonial-content">
+                                                    <h4>Shinn</h4>
+                                                    <p>"Nam iaculis, leo nec facilisis sollicitudin, dui massa tempus odio, vitae malesuada ante elit vitae eros."</p>
+                                                    <span>CEO and Founder</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="testimonial-item">
+                                                <div class="client-row">
+                                                    <img src="images/profile-01.jpg" class="rounded-circle" alt="profile 3">
+                                                </div>
+                                                <div class="testimonial-content">
+                                                    <h4>Marlar</h4>
+                                                    <p>"Etiam efficitur, tortor facilisis finibus semper, diam magna fringilla lectus, et fringilla felis urna posuere tortor."</p>
+                                                    <span>Chief Marketing Officer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+
+
+            <div class="section animated-row" data-section="slide07">
+                <div class="section-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-7 wide-col-laptop">
+                            <div class="title-block animate" data-animate="fadeInUp">
+                                <span>Contato</span>
+                                <h2>Entre em contato!</h2>
+                            </div>
+                            <div class="contact-section">
+                                <div class="row">
+                                    <div class="col-md-12 animate" data-animate="fadeInUp">
+                                        <div class="contact-box">
+                                            <div class="contact-row">
+                                                <i class="fa fa-map-marker"></i> Rio de janeiro, RJ, Brasil
+                                            </div>
+                                            <div class="contact-row">
+                                                <i class="fa fa-phone"></i> (21) 97682-9882
+                                            </div>
+                                            <div class="contact-row">
+                                                <i class="fa fa-envelope"></i> smlmonteiroum@gmail.com
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--                                    
+                                    <div class="col-md-6 animate" data-animate="fadeInUp">
+                                        <form id="ajax-contact" method="post" action="#">
+                                            <div class="input-field">
+                                                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
+                                            </div>
+                                            <div class="input-field">
+                                                <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
+                                            </div>
+                                            <div class="input-field">
+                                                <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
+                                            </div>
+                                            <button class="btn" type="submit">Submit</button>
+                                        </form>
+                                        <div id="form-messages" class="mt-3"></div>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="social-icons">
+            <div class="text-right">
+                <ul class="social-icons">
+
+                    <li><a href="https://github.com/sanss021" title="Github"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/samuel-silva-833322153/" title="Linkedin"><i
+                                class="fa fa-linkedin"></i></a></li>
+                    <!--<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>-->
+                    <!--<li><a href="#" title="Instagram"><i class="fa fa-behance"></i></a></li>-->
+                </ul>
             </div>
         </div>
     </div>
-    <!--Sobre Mim-->
-    <section class="jumbotron text-center corPrimaria " id="sobre-mim">
-        <div class="container ">
-            <h1 class="jumbotron-heading textoBrancos ">Sobre Mim</h1>
-            <p class="textoBrancos ">Olá, me chamo Samuel. Sou Desenvolvedor de aplicações Web e Mobile tenho conhecimentos em front-end com JavaScript/HTML/CSS e back-end com Python e Django. Desenvolvimento Mobile com Dart e Flutter.</p>
-        </div>
-    </section>
-    <!--Contato-->
-    <section class="corPrimaria " id="contato">
-        <div>
-            <div class="container-fluid ">
-                <h3 style="padding-top: 60px " class="text-center textoBrancos ">Entre em contato</h3>
-                <a href="mailto:smlmonteiroum@gmail.com ">
-                    <h4 style="padding-bottom: 60px; margin-bottom: 0px; " class="text-center ">smlmonteiroum@gmail.com
-                    </h4>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!--footer-->
-    <footer class="text-center corTerciaria textoFooter ">
-        <p>Desenvolvido por Samuel Silva </p>
-    </footer>
+
+    <script src="js/jquery.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/fullpage.min.js"></script>
+
+    <script src="js/scrolloverflow.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/jquery.inview.min.js"></script>
+
+    <script src="js/form.js"></script>
+
+    <script src="js/custom.js"></script>
+
+
 </body>
 
 </html>
+<!---->

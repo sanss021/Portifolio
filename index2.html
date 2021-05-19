@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+    <meta http-equiv="X-UA-Compatible" content="lewedge">
+    <title>Portifólio do Desenvolvedor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4503ca3d61.js" crossorigin="anonymous"></script>
+    <style>
+        .foto-perfil {
+            border-radius: 100px;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            filter: rgb(0, 0, 0);
+            /* IE */
+        }
+        
+        .corPrimaria {
+            background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+        }
+        
+        .corSecundaria {
+            background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+        }
+        
+        .corTerciaria {
+            background-image: linear-gradient(rgb(250, 221, 4), rgb(250, 221, 4));
+        }
+        
+        p {
+            font-family: cursive;
+            color: black !important;
+        }
+        
+        .icones {
+            padding-left: 5px;
+        }
+        
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: rgb(255, 255, 255)
+        }
+        
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: rgb(240, 212, 1);
+        }
+        
+        .textoBrancos {
+            color: yellow !important;
+        }
+        
+        .textoPretos {
+            color: rgb(0, 0, 0) !important;
+        }
+        
+        .jombotrom {
+            margin-bottom: 0px;
+        }
+        
+        .textoFooter {
+            margin: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="corPrimaria">
+    <nav class=" corTerciaria navbar-expand-lg navbar-light ">
+        <a class="navbar-brand textoBrancos" href="#">
+        </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link textoPretos" href="#projetos">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link textoPretos" href="#sobre-mim">Sobre mim</a></li>
+                <li class="nav-item"><a class="nav-link textoPretos" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">'
+            <img class="foto-perfil" src=" imagens/sanss.jpg " alt="Norway" style="width:15%">
+            <h1 class="jumbotron-heading textoBrancos ">Samuel Silva</h1>
+            <p class="textoBrancos ">Desenvolvimento Web - Desenvolvimento Mobile - Empreendedor</p>
+            <p><a href="#contato " class="btn btn-dark my-2 ">Contato</a></p>
+            <a href="https://github.com/sanss021 "><i class="fa fa-github textoBrancos "></i></a>
+            <a href="https://www.linkedin.com/in/samuel-silva-833322153/ "><i
+                    class=" fa fa-linkedin icones textoBrancos "></i></a>
+            <a href=" "><i class="fa fa-instagram icones textoBrancos "></i></a>
+        </div>
+    </section>
+    <!-- Projects -->
+    <div class="album py-5 corSecundaria " id="projetos">
+        <div class="container ">
+            <h3 class="jombotron-heading text-center titulosVerdes ">Projetos</h3>
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <div class="card mb-4 box-shadow ">
+                        <img class="card-img-top " data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail " alt="Thumbnail [100%x225] " style="height: 225px; width: 100%; display: block; " src="imagens/induna-print.png
+                " data-holder-rendered="true ">
+                        <div class="card-body ">
+                            <p class="card-text ">Induna é uma plataforma onde você pode informar e ser informado sobre situações de interesse público que acontecem na sua região.</p>
+                            <ul>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>MySQL</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center ">
+                                <div class="btn-group ">
+                                    <a href="https://induna.herokuapp.com/ "><button type="button "
+                                            class="btn btn-sm btn-outline-success ">Ver Projeto</button></a>
+                                    <a href="https://github.com/sanss021/ "><button type="button "
+                                            class="btn btn-sm btn-outline-primary ">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="card mb-4 box-shadow ">
+                        <img class="card-img-top " data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail " alt="Thumbnail [100%x225] " style="height: 225px; width: 100%; display: block; " src="imagens/kilombuhitech1.png
+                " data-holder-rendered="true ">
+                        <div class="card-body ">
+                            <p class="card-text ">Site de Notícias Afro sobre Ciência, Tecnologia, Negócios e Educação.
+                            </p>
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>Elementor</li>
+                                <li>Cpainel</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center ">
+                                <div class="btn-group ">
+                                    <a href="# "><button type="button " class="btn btn-sm btn-outline-success ">Ver
+                                            Projeto</button></a>
+                                    <a href="https://github.com/sanss021/ "><button type="button "
+                                            class="btn btn-sm btn-outline-primary ">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Sobre Mim-->
+    <section class="jumbotron text-center corPrimaria " id="sobre-mim">
+        <div class="container ">
+            <h1 class="jumbotron-heading textoBrancos ">Sobre Mim</h1>
+            <p class="textoBrancos ">Olá, me chamo Samuel. Sou Desenvolvedor de aplicações Web e Mobile tenho conhecimentos em front-end com JavaScript/HTML/CSS e back-end com Python e Django. Desenvolvimento Mobile com Dart e Flutter.</p>
+        </div>
+    </section>
+    <!--Contato-->
+    <section class="corPrimaria " id="contato">
+        <div>
+            <div class="container-fluid ">
+                <h3 style="padding-top: 60px " class="text-center textoBrancos ">Entre em contato</h3>
+                <a href="mailto:smlmonteiroum@gmail.com ">
+                    <h4 style="padding-bottom: 60px; margin-bottom: 0px; " class="text-center ">smlmonteiroum@gmail.com
+                    </h4>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="text-center corTerciaria textoFooter ">
+        <p>Desenvolvido por Samuel Silva </p>
+    </footer>
+</body>
+
+</html>
